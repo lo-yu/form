@@ -14,25 +14,21 @@
 
 .container {
     display: flex;
-    height: 100%;
 }
 
 .left_box {
     flex-grow: 2;
-    width: 40%;
-
+    width: 50%;
 }
 
 .image-container {
-    max-width: 100%;
-    height: auto;
     position: relative;
+    max-width: 100%;
 }
 
 .form-image {
-    width: 100%;
-    height: max-content;
     position: relative;
+    width: 100%;
 }
 
 .image-header {
@@ -74,7 +70,8 @@ a {
 
 .right_box {
     flex-grow: 3;
-    width: 60%;
+    width: 50%;
+
     padding-left: 7%;
     padding-top: 6%;
     padding-right: 22%;
