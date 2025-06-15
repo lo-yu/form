@@ -19,7 +19,7 @@
 
 .left_box {
     flex-grow: 2;
-    width: 35%;
+    width: 40%;
 
 }
 
@@ -73,12 +73,11 @@ a {
 }
 
 .right_box {
-    background-color: brown;
-    flex-grow: 4;
-    width: 65%;
-    padding-left: 5%;
+    flex-grow: 3;
+    width: 60%;
+    padding-left: 7%;
     padding-top: 6%;
-    padding-right: 6%;
+    padding-right: 22%;
 }
 
 p {
@@ -87,4 +86,63 @@ p {
 
 .last-para {
     padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+input {
+    border-radius: 5px;
+    appearance: none;
+}
+
+input:invalid {
+    border: solid red;
+}
+
+input:focus {
+    border: solid #73a6dd;
+    box-shadow: 0 0 3px blue;
+    outline: none;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.first-line {
+    padding-top: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin-bottom: 4%;
+    margin-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    background-color: #596D48;
+    font-weight: bold;
+    color: white;
+}
+
+.last-line {
+    font-size: large;
+}
+
+.log-in {
+    color: #596D48;
 }
